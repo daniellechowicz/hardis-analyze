@@ -22,7 +22,7 @@ FOLDER_NAME_RUCT    = "ruct"
 # Below are the main variables that determine the scope of the analysis
 # and the activation or deactivation of specific software functionalities.
 # The charts are saved by default in an automatically created folder inside the root directory.
-ACTIVATE_X_AXIS = False
+ACTIVATE_X_AXIS = True
 ACTIVATE_Y_AXIS = True
 ACTIVATE_Z_AXIS = True
 REVERSE_X_AXIS  = False

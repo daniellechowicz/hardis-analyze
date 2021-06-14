@@ -35,9 +35,9 @@ emojis = Emojis()
 
 
 # Some cool fonts:
-# banner3-D; basic; larry3d; nancyj-fancy; rev; univers
+# banner3-D; basic; larry3d; nancyj-fancy; rev; univers; poison
 def print_cool(text, clear=False):
-    cool_text = Figlet(font="poison")
+    cool_text = Figlet(font="banner3-D")
     if clear:
         os.system("cls")
     print(colors.GREEN, cool_text.renderText(text), colors.ENDL)
